@@ -34,8 +34,26 @@ $(".time-block").each(function(){
     }
 });
 
+
+function init() {
+    var storedEvents = JSON.parse(localStorage.getItem("events"));
+    if (storedEvents !== null) {
+      events = storedEvents;
+    }
+}
+
+// Stringify and set key
+function saveEvent() {
+    localStorage.setItem("events", JSON.stringify(events));
+}
+
+init();
+
 // When you click the button
 $("button").click(function() {
     var eventText = $(this).parent(".time-block").children("textarea").val();
-    console.log(eventText);
+    var hour = parseInt($(this).parent(".time-block").attr("id"));
+    events[hour] = [eventText]; 
+    saveEvent();
+    console.log(events[hour]);
 })

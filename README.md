@@ -51,7 +51,8 @@ Made an array for storing and edited the css for the buttons.
 ### Commit 13: Recognize inputs
 Now when something is entered in a text area and then the button of that row is clicked, that rows text is sent to the console.
 
-
+### Commit 14: Storage
+I think I'm storing the data now, I just need to figure out how to get it to appear upon intiation.
 
 ## credits
 https://www.w3schools.com/jquery/misc_each.asp
