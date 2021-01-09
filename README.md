@@ -42,8 +42,12 @@ Now I need to give every row an editable textarea. I did this using the textarea
 ### Commit 10: Buttons
 Added icons and made the buttons into buttons. I realize if I want it to update automatically, I need to do so asap or I won't be able to see it due to the time. 
 
+### Commit 11: Auto-refresh
+Added into the HTML meta a way for it to auto refresh every 5 minutes. Waited to see if it works, and it does!! Yay!
+
 ## credits
 https://www.w3schools.com/jquery/misc_each.asp
 https://www.w3schools.com/howto/howto_js_add_class.asp
 https://icons.getbootstrap.com/#usage
 https://icons.getbootstrap.com/icons/journal-plus/
+https://stackoverflow.com/questions/19807665/auto-refresh-for-every-5-mins

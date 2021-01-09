@@ -5,7 +5,6 @@ $("#currentDay").text(today);
 // Timeblock Colors
 var now = moment().format();
 var currentTime = now.split(':').join(',').split('-').join(',').split('T').join(',').split(',');
-console.log(currentTime[3]);
 $(".time-block").each(function(){
     var hour = parseInt($(this).attr("id"));
     if (currentTime[3] > hour) {
