@@ -24,8 +24,11 @@ Installed moment through npm. Next: the current date showing at the top.
 ### Commit 4: Current Date
 The current date now shows at the top of the page. Next: creating the timeblocks for standard business hours. 
 
-### Commit 5: First timeblock. 
+### Commit 5: First timeblock
 First to decide how to make them look. I'm thinking each hour will be it's own row. Then each row will be split into 3 columns. The time, the writeable area, and then the save button. I'll make the one for 9am and then commit before making the others. It doesn't look pretty, but I'm going to leave the aesthetics until after I have the functionality down. 
+
+### Commit 6: Rest of the timeblocks
+Simply repeated step 5 for the remaining hours. Next: the time relative colors!
 
 ## credits
 
