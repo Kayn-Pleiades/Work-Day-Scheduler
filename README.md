@@ -33,6 +33,10 @@ Simply repeated step 5 for the remaining hours. Next: the time relative colors!
 ### Commit 7: Script Fix
 The current date disappeared and I can't figure out why. It's really upsetting me. UPDATE: I have fixed it. For some reason I moved my script above the others, which I now realize no longer lets it reference the other scripts. Also got rid of the node stuff because while checking the slack for help, I realized moment was already linked, and that what I was doing was excessive. 
 
+### Commit 8: Color-code
+Changed the current day script to jquery. Spent a lot of time looking up for each type functions and got it working after a lot of painful trial and error. 
+
 ## credits
-https://www.w3schools.com/js/js_dates.asp
+https://www.w3schools.com/jquery/misc_each.asp
+
 
