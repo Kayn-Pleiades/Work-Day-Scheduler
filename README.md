@@ -30,5 +30,9 @@ First to decide how to make them look. I'm thinking each hour will be it's own r
 ### Commit 6: Rest of the timeblocks
 Simply repeated step 5 for the remaining hours. Next: the time relative colors!
 
+### Commit 7: Script Fix
+The current date disappeared and I can't figure out why. It's really upsetting me. UPDATE: I have fixed it. For some reason I moved my script above the others, which I now realize no longer lets it reference the other scripts. Also got rid of the node stuff because while checking the slack for help, I realized moment was already linked, and that what I was doing was excessive. 
+
 ## credits
+https://www.w3schools.com/js/js_dates.asp
 
