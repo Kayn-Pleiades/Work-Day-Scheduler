@@ -1,5 +1,6 @@
 # Work-Day-Scheduler
-# Responsive-Portfolio
+
+Project is deployed here: https://kayn-pleiades.github.io/Work-Day-Scheduler/
 
 ## Table of Contents
 
@@ -9,6 +10,10 @@
 
 ## description 
 
+This webpage allows you to plan out your workday! The current date is displayed at the top of the screen. You can enter events in the various hours, and once you click the save button to the right of the row, the data is saved, and will still be present even when the page resets. 
+The current hour, if during work hours, is highlighted in red. Hours before this are in grey and hours yet to come are in green. 
+
+![screenshot of deployed project](https://github.com/Kayn-Pleiades/Work-Day-Scheduler/blob/main/assets/Capture.PNG)
 
 ## process
 
@@ -57,9 +62,13 @@ I think I'm storing the data now, I just need to figure out how to get it to app
 ### Commit 15: Pulling from storage
 The saved data now returns upon refreshes, and in the correct row!!
 
+### Commit 16: Final
+README finished!
+
 ## credits
 https://www.w3schools.com/jquery/misc_each.asp
 https://www.w3schools.com/howto/howto_js_add_class.asp
 https://icons.getbootstrap.com/#usage
 https://icons.getbootstrap.com/icons/journal-plus/
 https://stackoverflow.com/questions/19807665/auto-refresh-for-every-5-mins
+The to-do list excercises we did in class largely served as a base. 
