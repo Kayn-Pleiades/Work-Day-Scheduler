@@ -36,7 +36,10 @@ The current date disappeared and I can't figure out why. It's really upsetting m
 ### Commit 8: Color-code
 Changed the current day script to jquery. Spent a lot of time looking up for each type functions and got it working after a lot of painful trial and error. 
 
+### Commit 9: Textarea
+Now I need to give every row an editable textarea. I did this using the textarea tag. I then made the hour col look nicer. 
+
 ## credits
 https://www.w3schools.com/jquery/misc_each.asp
-
+https://www.w3schools.com/howto/howto_js_add_class.asp
 
