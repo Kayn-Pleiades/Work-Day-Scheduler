@@ -21,5 +21,8 @@ Added base files for the project.
 ### Commit 3: Set-up
 Installed moment through npm. Next: the current date showing at the top.
 
+### Commit 4: Current Date
+The current date now shows at the top of the page. Next: creating the timeblocks for standard business hours. 
+
 ## credits
 
