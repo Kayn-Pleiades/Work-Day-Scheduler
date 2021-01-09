@@ -34,3 +34,8 @@ $(".time-block").each(function(){
     }
 });
 
+// When you click the button
+$("button").click(function() {
+    var eventText = $(this).parent(".time-block").children("textarea").val();
+    console.log(eventText);
+})

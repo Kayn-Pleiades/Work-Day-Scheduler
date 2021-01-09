@@ -48,6 +48,11 @@ Added into the HTML meta a way for it to auto refresh every 5 minutes. Waited to
 ### Commit 12: Space for storing
 Made an array for storing and edited the css for the buttons. 
 
+### Commit 13: Recognize inputs
+Now when something is entered in a text area and then the button of that row is clicked, that rows text is sent to the console.
+
+
+
 ## credits
 https://www.w3schools.com/jquery/misc_each.asp
 https://www.w3schools.com/howto/howto_js_add_class.asp
