@@ -1,0 +1,23 @@
+{
+  "name": "Work-Day-Scheduler",
+  "version": "1.0.0",
+  "description": "* [Description](#description)\r * [Process](#process)\r * [Credits](#credits)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayn-Pleiades/Work-Day-Scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayn-Pleiades/Work-Day-Scheduler/issues"
+  },
+  "homepage": "https://github.com/Kayn-Pleiades/Work-Day-Scheduler#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
