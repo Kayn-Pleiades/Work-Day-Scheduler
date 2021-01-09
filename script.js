@@ -1,3 +1,16 @@
+// Stores all of the hours' events
+var events = {
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": []
+};
+
 // Current Date
 var today = moment().format('MMMM Do YYYY');
 $("#currentDay").text(today);
