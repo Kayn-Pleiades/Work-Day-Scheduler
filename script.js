@@ -39,6 +39,11 @@ function init() {
     var storedEvents = JSON.parse(localStorage.getItem("events"));
     if (storedEvents !== null) {
       events = storedEvents;
+      $.each(events, function(hour, event){
+        var key = $("#" + hour);
+        console.log(event);
+        key.find("textarea").text(event);
+      })
     }
 }
 

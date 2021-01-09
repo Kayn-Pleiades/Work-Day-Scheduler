@@ -54,6 +54,9 @@ Now when something is entered in a text area and then the button of that row is 
 ### Commit 14: Storage
 I think I'm storing the data now, I just need to figure out how to get it to appear upon intiation.
 
+### Commit 15: Pulling from storage
+The saved data now returns upon refreshes, and in the correct row!!
+
 ## credits
 https://www.w3schools.com/jquery/misc_each.asp
 https://www.w3schools.com/howto/howto_js_add_class.asp
